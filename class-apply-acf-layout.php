@@ -358,8 +358,8 @@ Class Apply_ACF_Layout {
 		// prep to store all fields from the layout
 		$layout_fields = array();
 
-		// get all top-level fields from the layout
-		$fields_from_layout = get_field_objects( $import_layout_id );
+		// get all top-level fields from the layout without formatting (e.g. executing shortcodes)
+		$fields_from_layout = get_field_objects( $import_layout_id, false, true );
 
 		// apply each layout field to this post
 		if ( ! empty( $fields_from_layout )) {

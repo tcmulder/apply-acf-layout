@@ -4,7 +4,7 @@ Contributors: tcmulder
 Tags: acf, layout, layouts, template, templates, duplicate
 Requires at least: 4.7.3
 Tested up to: 4.7.3
-Stable tag: 0.2.0
+Stable tag: 0.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,10 @@ This plugin allows you to create layouts with various Advanced Custom Field (ACF
 2. Activate the plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
+
+= 0.2.2 =
+
+* Fixed bug with shortcodes and other content being filtered by the_content before being copied over.
 
 = 0.2.1 =
 
